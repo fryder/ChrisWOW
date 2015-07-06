@@ -1,0 +1,24 @@
+<!doctype html> <html class="no-js"> <head> <meta charset="utf-8"> <title>WOWMotorCycles</title> <meta name="description" content=""> <link rel="stylesheet" href="styles/main.d83f142e.css">  <body ng-controller="IndexCtrl"> <!--[if lt IE 7]>
+  <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]--> <!-- Add your site or application content here 
+  <div class="container">
+    <div class="header">
+      <ul class="nav nav-pills pull-right">
+        <li class="active"><a ng-href="#">Home</a></li>
+        <li><a ng-href="#">MotorCycles</a></li>
+        <li><a ng-href="#">Accessories</a></li>
+        <li><a ng-href="#">Service</a></li>
+        <li><a ng-href="#">SellYourBike</a></li>
+        <li><a ng-href="#/about">OtherServices</a></li>
+        <li><a ng-href="#">Contact</a></li>
+      </ul>
+      <h3 class="text-muted">WOWMotorCycles</h3>
+    </div>--> <!-- Fixed navbar --> <nav class="navbar navbar-default navbar-fixed-top"> <div class="container-fluid"> <div class="navbar-header"> <button type="button" class="navbar-toggle collapsed navbar-right" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> <a class="navbar-brand" href="#/home"><img ng-src="/images/wow.jpg" style="width:30%;max-width:80px"></a> </div> <div id="navbar" class="navbar-collapse collapse"> <ul class="nav navbar-nav"> <li class="active"><a href="#/home">Home</a></li> <li><a href="#/dealerInfo">DealerInfo</a></li> <li><a href="#/accessories">Accessories</a></li> <li><a href="#/service">Service</a></li> <li><a href="#/sell">Sell Your Bike</a></li> </ul></div><!--/.nav-collapse --> </div><!--/.container-fluid --> </nav> <div ng-view=""></div> <div class="footer"> <div class="row respImg"> <img ng-src="  http://www.wowmotorcycles.com/imgs/HOLIDAY-BANNER2.jpg" class="img-responsive"> <div class="col-xs-8"> WOW Motorcycles - 508 Cobb Parkway N Marietta,<br> <a href="tel:770-424-8804">770-424-8804</a>GA <a href="https://www.google.com/maps/dir/Current+Location/33.963706,-84.530814"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span>Directions</a> </div> </div> </div> <!-- Google Analytics: change UA-XXXXX-X to be your site's ID --> <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+   ga('create', 'UA-XXXXX-X');
+   ga('send', 'pageview');</script> <!--[if lt IE 9]>
+ <script src="scripts/oldieshim.js"></script>
+ <![endif]--> <script src="/scripts/paths.7bc760e7.js"></script> <script src="bower_components/requirejs/require.16cb4ff8.js" data-main="/scripts/build.9cc803f1"></script>  

@@ -1,0 +1,1 @@
+define(["WOWMotorCycles"],function(a){"use strict";a.controller("HomeCtrl",["$scope",function(a){a.homePageText="This is your homepage"}])});
