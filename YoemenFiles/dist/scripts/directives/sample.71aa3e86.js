@@ -1,1 +1,0 @@
-define(["WOWMotorCycles"],function(a){"use strict";a.directive("sample",function(){return{restrict:"E",template:"<span>Sample</span>"}})});

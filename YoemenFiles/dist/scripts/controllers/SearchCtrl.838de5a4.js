@@ -1,1 +1,0 @@
-define(["WOWMotorCycles","services/bikeSearchService"],function(a){"use strict";a.controller("SearchCtrl",["$scope","bikeSearchService",function(a,b){a.homePageText="This is your homepage",a.bikeData=b.getBikes,a.sort={column:"",descending:!1},a.changeSorting=function(b){var c=a.sort;c.column==b?c.descending=!c.descending:(c.column=b,c.descending=!1)}}])});
