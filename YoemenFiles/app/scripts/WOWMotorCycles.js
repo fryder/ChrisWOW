@@ -9,7 +9,8 @@ define(['routes',
 		'use strict';
 		var WOWMotorCycles = angular.module('WOWMotorCycles', [
 			'ngRoute',
-			'pascalprecht.translate'
+			'pascalprecht.translate',
+			'ui.utils'
 		]);
 		WOWMotorCycles
 			.config(
