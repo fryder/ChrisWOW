@@ -4,14 +4,14 @@ define(['routes',
 	'angular',
 	'angular-route',
 	'bootstrap',
-	'angular-translate'],
+	'angular-translate',
+	'angular-ui-utils'],
 	function(config, dependencyResolverFor, i18n) {
 		'use strict';
 		var WOWMotorCycles = angular.module('WOWMotorCycles', [
 			'ngRoute',
-			'pascalprecht.translate',
-			'ui.utils'
-		]);
+			'pascalprecht.translate','ui.utils',
+			]);
 		WOWMotorCycles
 			.config(
 				['$routeProvider',

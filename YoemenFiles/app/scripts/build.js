@@ -23,7 +23,7 @@ require.config({
         moment: '../../bower_components/moment/moment',
         requirejs: '../../bower_components/requirejs/require',
         'angular-translate': '../../bower_components/angular-translate/angular-translate',
-        'angular-ui-utils': '../../bower_components/angular-ui-utils/modules/utils',
+        'angular-ui-utils': '../../bower_components/angular-ui-utils/ui-utils',
         'angular-filter': '../../bower_components/angular-filter/dist/angular-filter'
     },
     shim: {
