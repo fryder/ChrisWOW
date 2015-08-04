@@ -1,0 +1,45 @@
+<div>
+
+        <div class="container text-center">
+            <h3>{{bike.make}} -{{bike.model}}</h3>
+            <p>
+                <h4>Price :-{{bike.price}}</h4>
+            </p>
+        </div>
+        <div class='table panel panel-primary'>
+    <div id="myCarousel" class="carousel slide" interval="myInterval" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" ng-repeat="slide in slides" data-slide-to="{{$index}}" ng-class="{active:$first}" />
+        </ol>
+        <div class="carousel-inner">
+            <div class="item" ng-repeat="slide in slides" ng-class="{active:$first}">
+                <img ng-src="{{slide.image}}" style="margin: auto;" ng-swipe-left='prev'/>
+            </div>
+        </div>
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="fa fa-hand-o-left" aria-hidden="true"></span><span class="sr-only">
+                previous</span> </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"><span class="fa fa-hand-o-right" aria-hidden="true">
+                    </span><span class="sr-only">next</span> </a>
+    </div>
+        <div class="panel-footer text-center">
+            <a href="https://www.facebook.com/sharer/sharer.php?u=http://www.wowmotorcycles.com/productimages/{{bike.refid}}.jpg"><span class="fa fa-facebook fa-lg"></span></a>
+            <a href="#twitter"><span class="fa fa-twitter fa-lg"></span></a>
+            <a href="#share"><span class="glyphicon glyphicon-share-alt"></span></a>
+        </div>
+    </div>
+    
+           <div class='table-responsive panel panel-primary'> 
+               <table class="table">
+            <tr class="row">
+                <th>cc:- {{bike.CC}}</th>
+            </tr>
+            <tr class="row">
+                <th>miles :- {{bike.miles}}</th>
+            </tr>
+            <tr class="row">
+                <th>Price :-{{bike.price}}</th>
+            </tr>
+            </table>
+        </div>
+</div>

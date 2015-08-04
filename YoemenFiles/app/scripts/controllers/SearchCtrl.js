@@ -1,7 +1,7 @@
 define(['WOWMotorCycles','services/bikeSearchService'], function (WOWMotorCycles) {
 
       'use strict';
-      WOWMotorCycles.controller('SearchCtrl', function ($scope, bikeSearchService) {
+      WOWMotorCycles.controller('SearchCtrl', function ($scope, bikeSearchService,$routeParams) {
             $scope.homePageText = 'This is your homepage';
             $scope.bikeData = bikeSearchService.getBikes;
 

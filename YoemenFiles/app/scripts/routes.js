@@ -4,25 +4,37 @@ define([], function() {
         defaultRoutePath: '/',
         routes: {
             '/': {
-                templateUrl: '/views/home.html',
+                templateUrl: 'views/home.html',
                 controller: 'HomeCtrl',
             },
             '/search': {
-                templateUrl: '/views/search.html',
+                templateUrl: 'views/search.html',
                 controller: 'SearchCtrl',
             },
             '/dealerInfo': {
-                templateUrl: '/views/dealerInfo.html',
+                templateUrl: 'views/dealerInfo.html',
                 controller: 'HomeCtrl',
             },
             '/accessories': {
-                templateUrl: '/views/accessories.html',
+                templateUrl: 'views/accessories.html',
                 controller: 'HomeCtrl',
             },
             '/service': {
-                templateUrl: '/views/Service.html',
+                templateUrl: 'views/Service.html',
                 controller: 'HomeCtrl',
-            }             
+            },
+            '/service/:make': {
+                templateUrl: 'views/Service.html',
+                controller: 'HomeCtrl',
+            },
+            '/service/:make/:model': {
+                templateUrl: 'views/Service.html',
+                controller: 'HomeCtrl',
+            },
+            '/bikeDetails/:refId':{
+                templateUrl:'views/bikeDetails.html',
+                controller:'bikeDetailsCtrl',
+            }            
             
         }
     };

@@ -1,22 +1,95 @@
-  <div class="table-responsive">
-  <table class="table-condensed">
+<style>
+  .panel-image img.panel-image-preview {
+      width: 100%;
+  	border-radius: 4px 4px 0px 0px;
+  }
+  .panel-heading ~ .panel-image img.panel-image-preview {
+  	border-radius: 0px;
+  }
+  
+  .panel-image ~ .panel-body, .panel-image.hide-panel-body ~ .panel-body {
+  	overflow: hidden;
+  }
+  .panel-image ~ .panel-footer a {
+  	padding: 0px 10px;
+  	font-size: 1.3em;
+  	color: rgb(100, 100, 100);
+  }
+  
+  .panel-image.hide-panel-body ~ .panel-body {
+  	height: 0px;
+  	padding: 0px;
+  }
+div.wrapper{  
+    float:left; /* important */  
+    position:relative; /* important(so we can absolutely position the description div */  
+}  
+div.description{  
+    position:absolute; /* absolute position (so we can position it where we want)*/  
+    bottombottom:0px; /* position will be on bottom */  
+    left:0px;  
+    width:100%;  
+    /* styling bellow */  
+    background-color:black;  
+    font-family: 'tahoma';  
+    font-size:15px;  
+    color:white;  
+    opacity:0.6; /* transparency */  
+    filter:alpha(opacity=60); /* IE transparency */  
+}  
+p.description_content{  
+    padding:10px;  
+    margin:0px;  
+}
+</style>
+<div class="container">
+  <!--<table class="table-responsive">
     <thead>
-        <tr>
+      <tr>
             <th ng-click="changeSorting('refid')">Vehicle</th>
             <th ng-click="changeSorting('Make')">Make</th>
            <th ng-click="changeSorting('model')">Model</th>
             <th ng-click="changeSorting('CC')">cc</th>
             <th ng-click="changeSorting('miles')">miles</th>            
             <th ng-click="changeSorting('price')">Price</th>
-        </tr>
-      <tr ng-repeat="bike in bikeData | orderBy:sort.column:sort.descending">
-        <td class="col-md-2"><img src="http://www.wowmotorcycles.com/productimages/thumb_{{bike.refid}}.jpg"/></td>
-        <td class="col-sm-3">{{bike.make}}</td>
-        <td class="col-sm-3">{{bike.model}}</td>
-        <td class="col-sm-3">{{bike.CC}}</td>
-        <td class="col-sm-3">{{bike.miles}}</td>
-        <td class="col-sm-3">{{bike.price}}</td>
-    </tr>
+        </tr>-->
+  <div ng-repeat="bike in bikeData | orderBy:sort.column:sort.descending" class="row">
+    <div class="panel panel-primary">
+      <div class="panel-body">
+        <div class="panel panel-primary">
+          <!--<div class="panel-heading">
+            <h5 align="center">{{bike.make}}-{{bike.model}}</h5>
+          </div>-->
+          <div class="panel-image">
+            <div class="wrapper">
+              <div class='description'>
+                <p class='description_content'>
+                  <font class='pull-left'>{{bike.make}}-{{bike.model}} {{bike.CC}} CC {{bike.miles}} miles</font>
+                  <font class='pull-right'>Price:-{{bike.price}}</font>
+                </p>
+              </div>
+              <a href='#/bikeDetails/{{bike.refid}}'><img src="http://www.wowmotorcycles.com/productimages/{{bike.refid}}.jpg" class="panel-image-preview"/></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panel-footer text-center">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=http://www.wowmotorcycles.com/productimages/{{bike.refid}}.jpg"><span class="fa fa-facebook fa-lg"></span></a>
+        <a href="#twitter"><span class="fa fa-twitter fa-lg"></span></a>
+        <a href="#share"><span class="glyphicon glyphicon-share-alt"></span></a>
+      </div>
+    </div>
+    <!-- <div class="col-md-8 col-sm-8">
+          <a href='#/bikeDetails/{{bike.refid}}'><img src="http://www.wowmotorcycles.com/productimages/{{bike.refid}}.jpg" class="image-thumb"/></a>
+        </div>
+        <div class="col-md-4 col-sm-4">
+          <div class="row">{{bike.make}}</div>
+          <div class="row">{{bike.model}}</div>
+          <div class="row">{{bike.CC}}</div>
+          <div class="row">{{bike.miles}}</div>
+          <div class="row">{{bike.price}}</div>
+        </div>
+      </div>
     </thead>
-</table>
+  </table>--></div>
 </div>

@@ -60,7 +60,7 @@
 .btn-primary {
   @include button-variant($btn-primary-color, $btn-primary-bg, $btn-primary-border);
 }
-.btn-primary {
+.btn-blue {
   @include button-variant(#021e46, $btn-primary-bg, white);
 }
 // Success appears as green

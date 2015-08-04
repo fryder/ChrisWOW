@@ -5,12 +5,12 @@ define(['routes',
 	'angular-route',
 	'bootstrap',
 	'angular-translate',
-	'angular-ui-utils'],
+	'ui-utils','angular-touch','angular-ui-scrollpoint'],
 	function(config, dependencyResolverFor, i18n) {
 		'use strict';
 		var WOWMotorCycles = angular.module('WOWMotorCycles', [
 			'ngRoute',
-			'pascalprecht.translate','ui.utils',
+			'pascalprecht.translate','ui.utils','ngTouch'
 			]);
 		WOWMotorCycles
 			.config(

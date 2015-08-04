@@ -4,6 +4,7 @@ require.config({
     paths: {
         angular: '../../bower_components/angular/angular',
         'angular-route': '../../bower_components/angular-route/angular-route',
+        'angular-touch': '../../bower_components/angular-touch/angular-touch',
         bootstrap: '../../bower_components/bootstrap/dist/js/bootstrap',
         jquery: '../../bower_components/jquery/dist/jquery',
         affix: '../../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/affix',
@@ -23,8 +24,16 @@ require.config({
         moment: '../../bower_components/moment/moment',
         requirejs: '../../bower_components/requirejs/require',
         'angular-translate': '../../bower_components/angular-translate/angular-translate',
-        'angular-ui-utils': '../../bower_components/angular-ui-utils/ui-utils',
-        'angular-filter': '../../bower_components/angular-filter/dist/angular-filter'
+        'angular-ui-utils': '../../bower_components/angular-ui-utils/index',
+        'angular-ui-event': '../../bower_components/angular-ui-event/dist/event',
+        'angular-ui-mask': '../../bower_components/angular-ui-mask/dist/mask',
+        'angular-ui-validate': '../../bower_components/angular-ui-validate/dist/validate',
+        'angular-ui-indeterminate': '../../bower_components/angular-ui-indeterminate/dist/indeterminate',
+        'angular-ui-uploader': '../../bower_components/angular-ui-uploader/dist/uploader',
+        'angular-ui-scroll': '../../bower_components/angular-ui-scroll/dist/ui-scroll',
+        'angular-ui-scrollpoint': '../../bower_components/angular-ui-scrollpoint/dist/scrollpoint',
+        'angular-filter': '../../bower_components/angular-filter/dist/angular-filter',
+        'ui-utils': '../../bower_components/ui-utils/index'
     },
     shim: {
         angular: {
@@ -58,9 +67,53 @@ require.config({
                 'angular'
             ]
         },
-        'angular-ui-utils': {
+        'ui-utils': {
+            deps: [
+                'angular-ui-event',
+                'angular-ui-mask',
+                'angular-ui-validate',
+                'angular-ui-indeterminate',
+                'angular-ui-uploader'
+            ]
+        },
+        'angular-ui-event': {
             deps: [
                 'angular'
+            ]
+        },
+        'angular-ui-mask': {
+            deps: [
+                'angular'
+            ]
+        },
+        'angular-ui-indeterminate': {
+            deps: [
+                'angular'
+            ]
+        },
+        'angular-ui-validate': {
+            deps: [
+                'angular'
+            ]
+        },
+        'angular-touch': {
+            deps: [
+                'angular'
+            ]
+        },
+        'angular-ui-scroll': {
+            deps: [
+                'angular'
+            ]
+        },
+        'angular-ui-scrollpoint': {
+            deps: [
+                'angular-ui-scroll'
+            ]
+        },
+        'angular-ui-uploader': {
+            deps: [
+                'angular-ui-scroll'
             ]
         }
     },
