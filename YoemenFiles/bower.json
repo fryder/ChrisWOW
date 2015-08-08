@@ -12,7 +12,8 @@
     "angular-translate": "~2.4.2",
     "font-awesome": "~4.4.0",
     "angular-ui-utils": "~3.0.0",
-    "angular-touch": "~1.4.3"
+    "angular-touch": "~1.4.3",
+    "angular-animate": "~1.4.3"
   },
   "devDependencies": {
     "bootstrap": "~3.3.1"

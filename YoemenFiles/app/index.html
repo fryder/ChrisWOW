@@ -40,29 +40,92 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#/home"><img ng-src="/images/wow.jpg" style='width:50%;max-width:80px;'></a>
+            <a class="navbar-brand" href="#/home"><img ng-src="/images/wow.jpg" style='width:50%;max-width:80px;position:absolute;'></a>
           </div>
-          <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="#/home">Home</a></li>
-              <li><a href="#/dealerInfo">DealerInfo</a></li>
-              <li><a href="#/accessories">Accessories</a></li>
-              <li><a href="#/service">Service</a></li>
-              <li><a href="#/sell">Sell Your Bike</a></li>
-          </div><!--/.nav-collapse -->
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active">
+              <a href="#/home" data-toggle="collapse" data-target=".navbar-collapse">Home</a>
+            </li>
+            <li>
+              <a href="#/dealerInfo" data-toggle="collapse" data-target=".navbar-collapse">DealerInfo</a>
+            </li>
+            <li>
+              <a href="#/accessories" data-toggle="collapse" data-target=".navbar-collapse">Accessories</a>
+            </li>
+            <li>
+              <a href="#/service" data-toggle="collapse" data-target=".navbar-collapse">Service</a>
+            </li>
+            <li>
+              <a href="#/sell" data-toggle="collapse" data-target=".navbar-collapse">Sell Your Bike</a>
+            </li>
+          </ul>
+        </div>
         </div><!--/.container-fluid -->
       </nav>
-    <div ng-view=""></div>
+    <div ng-view="" ng-class="{slide: path !== '/' }"></div>
 
-    <div class="footer footerimage">
-      <div class='row respImg '>
 
-        <div class="col-xs-8">
-           WOW Motorcycles - 508 Cobb Parkway N Marietta,<br> <a href="tel:770-424-8804">770-424-8804</a>GA 
-           <a href="https://www.google.com/maps/dir/Current+Location/33.963706,-84.530814"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span>Directions</a>           
-        </div>
-    </div>
-  </div>
+    	<footer class="footer-distributed">
+			<div class="footer-left">
+
+				<h3>	<a href="#/home"><img ng-src="images/wow.jpg" class="img-responsive2"/></a></h3>
+
+				<p class="footer-links">
+					<a href="#/home">Home</a>
+					·
+					<a href="#/dealerInfo">DealerInfo</a>
+					·
+					<a href="#/accessories">Accessories</a>
+					·
+					<a href="#/service">Service</a>
+					·
+					<a href="#/sell">sell-my-bike</a>
+				</p>
+
+				<p class="footer-company-name">WOW Motorcycles &copy; 2015</p>
+			</div>
+
+			<div class="footer-center">
+
+				<div>
+          <a href="https://www.google.com/maps/dir/Current+Location/33.963706,-84.530814">
+					<i class="fa fa-map-marker"></i>
+					<p><span>508 Cobb Pkwy N</span> Marietta Ga 30062</p>
+          </a>
+				</div>
+
+				<div>
+					<a href="tel:770-424-8804"><i class="fa fa-phone"></i></a>
+					<p>770-424-8804</p>
+				</div>
+
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:support@company.com">support@company.com</a></p>
+				</div>
+
+			</div>
+
+			<div class="footer-right">
+
+				<p class="footer-company-about">
+					<span>About the company</span>
+					WOW Motorcycles was founded as World On Wheels International 
+				</p>
+
+				<div class="footer-icons">
+
+					<a href="http://www.facebook.com/pages/WOW-MOTORCYCLESCOM/100182050033723#!/pages/WOW-MOTORCYCLESCOM/100182050033723?v=wall"><i class="fa fa-facebook"></i></a>
+					<a href="http://www.youtube.com/wowmotorcycles"><i class="fa fa-youtube"></i></a>
+					<a href="http://wowmotorcycles.blogspot.com/"><i class="fa fa-space-shuttle"></i></a>
+
+				</div>
+
+			</div>
+
+		</footer>
+
 
   <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
   <script>

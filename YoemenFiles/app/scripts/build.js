@@ -33,7 +33,8 @@ require.config({
         'angular-ui-scroll': '../../bower_components/angular-ui-scroll/dist/ui-scroll',
         'angular-ui-scrollpoint': '../../bower_components/angular-ui-scrollpoint/dist/scrollpoint',
         'angular-filter': '../../bower_components/angular-filter/dist/angular-filter',
-        'ui-utils': '../../bower_components/ui-utils/index'
+        'ui-utils': '../../bower_components/ui-utils/index',
+        'angular-animate': '../../bower_components/angular-animate/angular-animate'
     },
     shim: {
         angular: {

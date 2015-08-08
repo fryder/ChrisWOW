@@ -55,6 +55,7 @@ p.description_content{
         </tr>-->
   <div ng-repeat="bike in bikeData | orderBy:sort.column:sort.descending" class="row">
     <div class="panel panel-primary">
+      <div class="panel-heading text-center">          {{bike.make}}-{{bike.model}}</div>
       <div class="panel-body">
         <div class="panel panel-primary">
           <!--<div class="panel-heading">
@@ -64,7 +65,7 @@ p.description_content{
             <div class="wrapper">
               <div class='description'>
                 <p class='description_content'>
-                  <font class='pull-left'>{{bike.make}}-{{bike.model}} {{bike.CC}} CC {{bike.miles}} miles</font>
+                  <font class='pull-left'>{{bike.CC}} CC {{bike.miles}} miles</font>
                   <font class='pull-right'>Price:-{{bike.price}}</font>
                 </p>
               </div>
@@ -74,9 +75,24 @@ p.description_content{
         </div>
       </div>
       <div class="panel-footer text-center">
-        <a href="https://www.facebook.com/sharer/sharer.php?u=http://www.wowmotorcycles.com/productimages/{{bike.refid}}.jpg"><span class="fa fa-facebook fa-lg"></span></a>
-        <a href="#twitter"><span class="fa fa-twitter fa-lg"></span></a>
-        <a href="#share"><span class="glyphicon glyphicon-share-alt"></span></a>
+
+        <a href="https://www.facebook.com/sharer/sharer.php?u=http://www.wowmotorcycles.com/productimages/{{bike.refid}}.jpg">
+          <span class="fa-stack fa-lg">
+             <i class="fa fa-square-o fa-stack-2x"></i>
+             <i class="fa fa-facebook fa-stack-1x"></i>
+        </span></a>
+        <a href="#twitter">
+       <span class="fa-stack fa-lg">
+             <i class="fa fa-square-o fa-stack-2x"></i>
+             <i class="fa fa-twitter fa-stack-1x"></i>
+             </span></a>
+        <a href="#share">
+            <span class="fa-stack fa-lg">
+             <i class="fa fa-square-o fa-stack-2x"></i>
+             <i class="glyphicon glyphicon-share-alt"></i>
+          
+        </span></a>
+
       </div>
     </div>
     <!-- <div class="col-md-8 col-sm-8">

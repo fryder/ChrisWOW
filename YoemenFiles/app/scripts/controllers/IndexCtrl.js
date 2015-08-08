@@ -7,7 +7,7 @@ define(['WOWMotorCycles','services/bikeSearchService'], function(WOWMotorCycles)
 		$scope.welcomeText = 'Welcome to your WOWMotorCycles page';
 		$scope.bikes=bikeSearchService.getBikesFromStore;
 		$scope.submit=function(){
-			$location.path( "/search/"+this.selectedMake.make+"/"+this.selectedModel.model);
+			$location.path( "/search");
 		};
 	});
 });
