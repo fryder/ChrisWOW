@@ -54,8 +54,7 @@ p.description_content{
             <th ng-click="changeSorting('price')">Price</th>
         </tr>-->
   <div ng-repeat="bike in bikeData | orderBy:sort.column:sort.descending" class="row">
-    <div class="panel panel-primary">
-      <div class="panel-heading text-center">          {{bike.make}}-{{bike.model}}</div>
+    <div class="panel panel-primary" class="col-xs-4">
       <div class="panel-body">
         <div class="panel panel-primary">
           <!--<div class="panel-heading">
@@ -74,14 +73,15 @@ p.description_content{
           </div>
         </div>
       </div>
-      <div class="panel-footer text-center">
-
+      <div class="panel-footer row">
+        <a href='#/bikeDetails/{{bike.refid}}' class="text-left col-xs-6"><h4>{{bike.make}}-{{bike.model}}</h4></a>
+        <span class="col-xs-6">
         <a href="https://www.facebook.com/sharer/sharer.php?u=http://www.wowmotorcycles.com/productimages/{{bike.refid}}.jpg">
           <span class="fa-stack fa-lg">
              <i class="fa fa-square-o fa-stack-2x"></i>
              <i class="fa fa-facebook fa-stack-1x"></i>
         </span></a>
-        <a href="#twitter">
+        <a  href="#twitter">
        <span class="fa-stack fa-lg">
              <i class="fa fa-square-o fa-stack-2x"></i>
              <i class="fa fa-twitter fa-stack-1x"></i>
@@ -89,10 +89,10 @@ p.description_content{
         <a href="#share">
             <span class="fa-stack fa-lg">
              <i class="fa fa-square-o fa-stack-2x"></i>
-             <i class="glyphicon glyphicon-share-alt"></i>
+             <i class="fa fa-share-alt fa-stack-1x"></i>
           
-        </span></a>
-
+        </span></a></span>
+          </div>
       </div>
     </div>
     <!-- <div class="col-md-8 col-sm-8">
