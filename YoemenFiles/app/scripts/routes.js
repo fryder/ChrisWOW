@@ -11,6 +11,10 @@ define([], function() {
                 templateUrl: 'views/search.html',
                 controller: 'SearchCtrl',
             },
+            '/searchInit/:bikeType': {
+                templateUrl: 'views/searchInit.html',
+                controller: 'IndexCtrl',
+            },
             '/dealerInfo': {
                 templateUrl: 'views/dealerInfo.html',
                 controller: 'HomeCtrl',

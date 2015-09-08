@@ -1,28 +1,58 @@
-            <div class="jumbotron" >
-            <div class="container">
-                <form class="form-horizontal" ng-submit="submit()">
-                      <div class="form-group">
-                                <label >Make: </label>
-                           <select  ng-model="selectedMake" ng-options="bike.make for bike in bikes" class="form-control">
-                                <option value=''>Select</option>
-                            </select>
-                       </div>
-                        <div class="form-group">
-                                <label >Model: </label>
-                           <select  ng-model="selectedModel" ng-options="bike.model for bike in bikes |filter:{model:selectedBike.model}" class="form-control">
-                                <option value=''>Select</option>
-                            </select>
-                       </div>
-                       <div class="form-group form-inline">
-                                <label >price Range: </label>
-                                <input type="number" class="form-control" placeholder="Min Price" min=0 ng-model="minPrice" step=100> 
-                                <input type="number" class="form-control" placeholder="Max price" min="{{minPrice+100}}" ng-model="maxPrice" step=100>
-                       </div>
-                       <div class="form-group">
-                           
-                            <button type="submit" class="btn btn-blue btn-sm"><b style="color:white"><i class="fa fa-motorcycle"></i></b></button>
-                       </div>                   
-              
-                </form>
+
+<div class="table" style="text-align:center">
+    <div class="row"> 
+        <div class="col-md-6 col-xs-6">
+            <div class="wrapper">
+                <a href="#/searchInit/sports">
+            <div class='desc'>
+                <p class='description_content'>
+                  <font> SPORTS BIKES</font>
+                </p>
+              </div>    
+            <img src="http://www.wowmotorcycles.com/imgs/big_ad/sport.jpg" class="img-responsive" style="width:100%"></a>
             </div>
+        </div>
+        <div class="col-md-6 col-xs-6 nopadding"> 
+            <div class="wrapper">
+                 <a href="#/searchInit/cruise">
+              <div class='desc'>
+                <p class='description_content'>
+                  <font> CRUISE BIKES </font>
+                </p>
+              </div>   
+         
+            <img src="http://www.wowmotorcycles.com/imgs/big_ad/cruise.jpg" class="img-responsive">
             </div>
+        </div>
+    </div>
+
+        <div class="row"> 
+        <div class="col-md-6 col-xs-6">  
+                        <div class="wrapper">
+               <a href="#/searchInit/tour">
+              <div class='desc'>
+                <p class='description_content'>
+                  <font> TOUR BIKES  </font>
+                </p>
+              </div>  
+            
+            <img src="http://www.wowmotorcycles.com/imgs/big_ad/tour.jpg" class="img-responsive">
+            </div>
+        </div>
+        <div class="col-md-6 col-xs-6"> 
+          <div class="wrapper">
+            <a href="#/searchInit/sports">
+              <div class='desc'>
+                <p class='description_content'>
+                  <font> DUAL BIKES</font>
+                </p>
+              </div>             
+            <img src="http://www.wowmotorcycles.com/imgs/big_ad/dual.jpg" class="img-responsive">
+            </div>            
+        </div>
+    </div>
+    <div class="row" style="padding-top:'-70px';">     
+    <img src="http://www.wowmotorcycles.com/imgs/big_ad/allmotorcycles.jpg" class="img-responsive">
+    </div>
+ </div>
+           

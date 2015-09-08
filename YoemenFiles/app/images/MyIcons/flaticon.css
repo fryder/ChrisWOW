@@ -1,0 +1,139 @@
+@font-face {
+	font-family: "Flaticon";
+	src: url("flaticon.eot");
+	src: url("flaticon.eot#iefix") format("embedded-opentype"),
+	url("flaticon.woff") format("woff"),
+	url("flaticon.ttf") format("truetype"),
+	url("flaticon.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+	font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}.flaticon-motorbike9:before {
+	content: "\e000";
+}
+
+.flaticon-motorcycle:before {
+	content: "\e001";
+}
+.flaticon-motorcycle18:before {
+	content: "\e002";
+}
+.flaticon-motorcycle2:before {
+	content: "\e003";
+}
+.flaticon-motorcycle4:before {
+	content: "\e004";
+}
+.flaticon-motorcycle6:before {
+	content: "\e005";
+}
+.flaticon-motorcyclists:before {
+	content: "\e006";
+}
+.flaticon-single17:before {
+	content: "\e007";
+}
+.flaticon-transport621:before {
+	content: "\e008";
+}
+.flaticon-vehicle36:before {
+	content: "\e009";
+}
+
+.flaticon-motorbike9big:before {
+	content: "\e000";
+   font-size: 40px; 
+   margin-right: 9px;
+}
+.flaticon-motorcyclebig:before {
+	content: "\e001";
+    font-size: 40px; 
+   margin-right: 9px;
+}
+.flaticon-motorcycle18big:before {
+	content: "\e002";
+       font-size: 40px; 
+   margin-right: 9px;
+}
+.flaticon-motorcycle2big:before {
+	content: "\e003";
+       font-size: 40px; 
+   margin-right: 9px;
+}
+.flaticon-motorcycle4big:before {
+	content: "\e004";
+       font-size: 40px; 
+   margin-right: 9px;
+}
+.flaticon-motorcycle6big:before {
+	content: "\e005";
+       font-size: 40px; 
+   margin-right: 9px;
+}
+.flaticon-motorcyclistsbig:before {
+	content: "\e006";
+       font-size: 40px; 
+   margin-right: 9px;
+}
+.flaticon-single17big:before {
+	content: "\e007";
+      font-size: 40px; 
+   margin-right: 9px; 
+}
+.flaticon-transport621big:before {
+	content: "\e008";
+     font-size: 40px; 
+   margin-right: 9px;  
+}
+.flaticon-vehicle36big:before {
+	content: "\e009";
+       font-size: 40px; 
+   margin-right: 9px;
+}
+    .buttons-squares .button {
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        border: 0 none;
+        cursor: pointer;
+        display: inline-block;
+        font-size: 13px;
+        height: 33px;
+        line-height: 33px;
+        padding: 0 10px 0 16px;
+        text-align: center;
+        vertical-align: top;
+    }
+    .button-purple    {
+        background-color: #9464E2; color: white;
+        text-shadow: 0 1px rgba(0, 0, 0, 0.08);
+    }
+    .button-orange    {
+        background-color: #FAA226; color: white;
+        text-shadow: 0 1px rgba(0, 0, 0, 0.08);
+    }
+    .button-dark-blue {
+        background-color: #3061A3; color: white;
+        text-shadow: 0 1px rgba(0, 0, 0, 0.08);
+    }
+    .button-grey      {
+        background-color: #E5E7ED; color: #243140;
+        text-shadow: 0 1px rgba(255, 255, 255, 0.08);
+    }
+    .rounded {
+      background-color: #3061A3; 
+    padding: 5px 10px;
+    display: inline-block;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    -moz-box-shadow: 0px 0px 2px #888;
+    -webkit-box-shadow: 0px 0px 2px #888;
+    box-shadow: 0px 0px 2px #888;
+}
+
