@@ -11254,24 +11254,89 @@ div, respImg {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\0000317}}
 div.desc {
-  background-color: #000;
+  background-color: #000 none repeat scroll 0 0;
   bottom: 0;
   color: #fff;
-  left: 15px;
+  left: 0px;
   opacity: 0.5;
   position: absolute;
   width: 80%;
   padding: 0px;
-  height: 30%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\0000327}}
+div.wrapper {
+  float: left;
+  /* important */
+  position: relative;
+  /* important(so we can absolutely position the description div */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\0000331}}
+div.description {
+  position: absolute;
+  /* absolute position (so we can position it where we want)*/
+  bottombottom: 0px;
+  /* position will be on bottom */
+  left: 0px;
+  width: 100%;
+  /* styling bellow */
+  background-color: black;
+  font-family: 'tahoma';
+  font-size: 15px;
+  color: white;
+  opacity: 0.6;
+  /* transparency */
+  filter: alpha(opacity=60);
+  /* IE transparency */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\0000344}}
+div.descLogo {
+  position: absolute;
+  /* absolute position (so we can position it where we want)*/
+  bottombottom: 0px;
+  /* position will be on bottom */
+  left: 0px;
+  width: 100%;
+  /* styling bellow */
+  font-family: 'tahoma';
+  font-size: 15px;
+  color: white;
+  opacity: 0.6;
+  /* transparency */
+  filter: alpha(opacity=60);
+  /* IE transparency */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\0000356}}
+p.description_content {
+  padding: 10px;
+  margin: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\0000360}}
+.storeBox {
+  background: url(/images/yeoman.png) 0 0 no-repeat;
+  width: 261px;
+  height: 276px;
+  padding: 5px 42px 7px 13px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\0000374}}
 .fix {
   width: 100%;
   padding: 2px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\0000378}}
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
@@ -11280,14 +11345,14 @@ div.desc {
 }
 
 /* Space out content a bit */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\0000341}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\0000386}}
 body {
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\0000347}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\0000392}}
 .header,
 .marketing,
 .footer {
@@ -11296,12 +11361,12 @@ body {
 }
 
 /* Custom page header */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003100}}
 .header {
   border-bottom: 1px solid #e5e5e5;
   /* Make the masthead heading the same height as the navigation */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\0000359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003104}}
 .header h3 {
   margin-top: 0;
   margin-bottom: 0;
@@ -11310,68 +11375,68 @@ body {
 }
 
 /* Custom page footer */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\0000368}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003113}}
 .footer {
   padding-top: 19px;
   color: #777;
   border-top: 1px solid #e5e5e5;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\0000374}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003119}}
 .container-narrow > hr {
   margin: 30px 0;
 }
 
 /* Main marketing message and sign up button */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\0000379}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003124}}
 .jumbotronRoad {
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
   background: url("http://www.wowmotorcycles.com/imgs/body_bottom_bg.jpg") no-repeat center center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\0000383}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003128}}
 .jumbotronRoad .btn {
   font-size: 21px;
   padding: 14px 24px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003134}}
 .jumbotronBike {
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
   background: url("http://www.wowmotorcycles.com/imgs/big_ad/allmotorcycles.jpg") no-repeat center center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\0000393}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003138}}
 .jumbotronBike .btn {
   font-size: 21px;
   padding: 14px 24px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003100}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003145}}
 .backgroundBike {
   background: url("http://www.wowmotorcycles.com/imgs/big_ad/allmotorcycles.jpg") no-repeat center center;
   background-size: 100% auto;
 }
 
 /* Supporting marketing content */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003106}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003151}}
 .marketing {
   margin: 40px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003109}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003154}}
 .marketing p + h4 {
   margin-top: 28px;
 }
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003116}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003161}}
   .container {
     max-width: 730px;
   }
 
   /* Remove the padding we set earlier */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003121}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003166}}
   .header,
   .marketing,
   .footer {
@@ -11380,25 +11445,25 @@ body {
   }
 
   /* Space out the masthead */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003128}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003173}}
   .header {
     margin-bottom: 30px;
   }
 
   /* Remove the bottom border on the jumbotron for visual effect */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003132}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003177}}
   .jumbotron {
     border-bottom: 0;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003137}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003182}}
 .img-responsive2 {
   display: inline-block;
   max-width: 30%;
   height: auto;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003144}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003189}}
 .footer-distributed {
   background-color: #021a36;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
@@ -11410,7 +11475,7 @@ body {
   margin-top: 80px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003156}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003201}}
 .footer-distributed .footer-left,
 .footer-distributed .footer-center,
 .footer-distributed .footer-right {
@@ -11419,33 +11484,33 @@ body {
 }
 
 /* Footer left */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003165}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003210}}
 .footer-distributed .footer-left {
   width: 40%;
 }
 
 /* The company logo */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003171}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003216}}
 .footer-distributed h3 {
   color: #ffffff;
   font: normal 36px 'Cookie', cursive;
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003177}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003222}}
 .footer-distributed h3 span {
   color: #5383d3;
 }
 
 /* Footer links */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003183}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003228}}
 .footer-distributed .footer-links {
   color: #ffffff;
   margin: 20px 0 12px;
   padding: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003189}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003234}}
 .footer-distributed .footer-links a {
   display: inline-block;
   line-height: 1.8;
@@ -11453,7 +11518,7 @@ body {
   color: inherit;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003196}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003241}}
 .footer-distributed .footer-company-name {
   color: #8f9296;
   font-size: 14px;
@@ -11462,12 +11527,12 @@ body {
 }
 
 /* Footer Center */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003205}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003250}}
 .footer-distributed .footer-center {
   width: 35%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003209}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003254}}
 .footer-distributed .footer-center i {
   background-color: #33383b;
   color: #ffffff;
@@ -11481,13 +11546,13 @@ body {
   vertical-align: middle;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003222}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003267}}
 .footer-distributed .footer-center i.fa-envelope {
   font-size: 17px;
   line-height: 38px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003227}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003272}}
 .footer-distributed .footer-center p {
   display: inline-block;
   color: #ffffff;
@@ -11495,7 +11560,7 @@ body {
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003234}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003279}}
 .footer-distributed .footer-center p span {
   display: block;
   font-weight: normal;
@@ -11503,19 +11568,19 @@ body {
   line-height: 2;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003241}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003286}}
 .footer-distributed .footer-center p a {
   color: #5383d3;
   text-decoration: none;
 }
 
 /* Footer Right */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003249}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003294}}
 .footer-distributed .footer-right {
   width: 20%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003253}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003298}}
 .footer-distributed .footer-company-about {
   line-height: 20px;
   color: #92999f;
@@ -11524,7 +11589,7 @@ body {
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003261}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003306}}
 .footer-distributed .footer-company-about span {
   display: block;
   color: #ffffff;
@@ -11533,12 +11598,12 @@ body {
   margin-bottom: 20px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003269}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003314}}
 .footer-distributed .footer-icons {
   margin-top: 25px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003273}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003318}}
 .footer-distributed .footer-icons a {
   display: inline-block;
   width: 35px;
@@ -11556,12 +11621,12 @@ body {
 
 /* If you don't want the footer to be responsive, remove these media queries */
 @media (max-width: 880px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003294}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003339}}
   .footer-distributed {
     font: bold 14px sans-serif;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003298}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003343}}
   .footer-distributed .footer-left,
   .footer-distributed .footer-center,
   .footer-distributed .footer-right {
@@ -11571,12 +11636,12 @@ body {
     text-align: center;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003307}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003352}}
   .footer-distributed .footer-center i {
     margin-left: 0;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003312}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003357}}
 .slide.ng-leave {
   transition: 0.10s linear all;
   position: fixed;
@@ -11584,7 +11649,7 @@ body {
   right: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003363}}
 .slide.ng-enter {
   transition: 0.10s linear all;
   position: fixed;
@@ -11593,7 +11658,7 @@ body {
   height: inherit;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003370}}
 .slide.ng-leave-active {
   transition: 0.10s linear all;
   position: fixed;
@@ -11601,7 +11666,7 @@ body {
   right: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adithyakumaarparvatam\/GIT\/ChrisWOW\/ChrisWOW\/Yoemenfiles\/app\/styles\/main\.scss}line{font-family:\00003376}}
 .slide.ng-enter-active {
   transition: 0.10s linear all;
   position: releative;
