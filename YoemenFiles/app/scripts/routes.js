@@ -38,7 +38,11 @@ define([], function() {
             '/bikeDetails/:refId':{
                 templateUrl:'views/bikeDetails.html',
                 controller:'bikeDetailsCtrl',
-            }            
+            },
+            '/sell':{
+            templateUrl:'views/sellBike.html',
+            controller:'sellBikeCtrl',
+            }             
             
         }
     };
